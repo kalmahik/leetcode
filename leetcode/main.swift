@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+
+print(Solution14().longestCommonPrefix(["flight", "flow", "flower", "vevfl", "rgertgetrgertfl", "wasd"]))

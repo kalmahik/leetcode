@@ -5,7 +5,7 @@
 
 class Solution9 {
     func isPalindrome(_ x: Int) -> Bool {
-        //convert number to array
+        // convert number to array
         let xArray = Array("\(x)")
         for (index, number) in xArray.enumerated() {
             // compare current element and symmetric
@@ -24,6 +24,6 @@ class Solution9 {
     }
     
     // alternative solution, shows the power of swift language
-    // without algorithms, but humanreadable, easy and compact
+    // without algorithms, but human-readable, easy and compact
     func isPalindromeAlt(_ x: Int) -> Bool { String(String(x).reversed()) == String(x) }
 }
